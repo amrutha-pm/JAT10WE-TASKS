@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 public class Question2 {
 	public static void main(String[] args) throws InterruptedException {
-		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\amrutha\\Desktop\\drivers\\chromedriver.exe");
+		//System.setProperty("webdriver.gecko.driver", "C:\\Users\\ADMIN\\Downloads\\drive.geckodriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.navigate().to("https://www.demoblaze.com/");
 		driver.manage().window().maximize();

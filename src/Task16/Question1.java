@@ -8,10 +8,8 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 public class Question1 {
 	public static void main(String[] args) {
 		
-	System.setProperty("webdriver.gecko.driver", "C:\\Users\\ADMIN\\Downloads\\geckodriver-v0.35.0-win64.exe");
+	//System.setProperty("webdriver.gecko.driver", "C:\\Users\\ADMIN\\Downloads\\geckodriver-v0.35.0-win64 (1).geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
-	
-
 		driver.navigate().to("https://www.google.com/");
 		driver.manage().window().maximize();
 		System.out.println(driver.getCurrentUrl());
