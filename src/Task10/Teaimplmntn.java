@@ -25,8 +25,8 @@ package Task10;
 		  //  @Override
 		    public String Prepairtea() {
 		        return "prepairing the herbaltea";
-		    }}
-	 public class Teaimplmntn{
+		    } //} //I Commented the public class teasimplmntn bcoz of error ,let me check later 18-09-2024
+	 //public class Teaimplmntn{
 		 public static void main(String[] args) {
 		        
 
