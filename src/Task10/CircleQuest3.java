@@ -4,12 +4,12 @@ public class CircleQuest3 {
 
 	float radius;
 	float result;   //declaring variables
-	
+
 	// default constructor
-	
+
 	public CircleQuest3()
 	{
-		
+
 	}
 	//Parameterized constructor
 	public CircleQuest3(float radius)
@@ -26,7 +26,7 @@ public class CircleQuest3 {
       CircleQuest3 objC=new CircleQuest3(10);
       objC.CercumferenceOfCircle();
       //System.out.println("Circumference of the circle is :" + objC.result);
-      
+
 	}
 
 }

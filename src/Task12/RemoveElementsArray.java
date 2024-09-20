@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class RemoveElementsArray {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 ArrayList<String> List = new ArrayList<String>();
+		 ArrayList<String> List = new ArrayList<>();
 	        // ArrayList <String> List1=new ArrayList <String>();
 	        List.add("welcome");
 	        List.add("to");
@@ -17,12 +17,11 @@ public class RemoveElementsArray {
 	        //List1.addAll(List);
 	         //List.add("Anu");
 	        // List1.removeAll(List);
-	        for (int i = 0; i < List.size(); i++) 
-	        {
-	            System.out.println(List.get(i)); 
-		
+	        for (String element : List) {
+	            System.out.println(element);
+
 	}
-	        
+
 	     //   System.out.println("All items are removed");
 
 }

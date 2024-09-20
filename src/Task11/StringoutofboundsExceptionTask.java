@@ -7,6 +7,6 @@ public class StringoutofboundsExceptionTask {
 		        String str = "My String";
 		        System.out.println(str.charAt(9));
 		    }
-		
+
 
 }

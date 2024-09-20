@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Task9Quest1 {
 
 	public static void main(String[] args) {
-		
+
 
 		        String str,reverse = "";
 
@@ -28,6 +28,6 @@ public class Task9Quest1 {
 		                   }
 		        }
 
-		            }      
-		             
+		            }
+
 

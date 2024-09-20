@@ -25,6 +25,6 @@ public class Task9Quest4 {
 		                System.out.print(" ");
 		            }
 		        }
-		        System.out.println(" ");  
+		        System.out.println(" ");
 		    }
 		    }}

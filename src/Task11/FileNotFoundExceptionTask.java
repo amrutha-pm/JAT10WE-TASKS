@@ -6,8 +6,8 @@ public class FileNotFoundExceptionTask {
 
 		       try {
 		        FileReader ask= new FileReader("D:\\MY doc certificate");
-		    } 
-		       catch (java.io.FileNotFoundException e) 
+		    }
+		       catch (java.io.FileNotFoundException e)
 		       {
 		        e.printStackTrace();
 		        System.out.println("handling file not found exception");
@@ -18,4 +18,4 @@ public class FileNotFoundExceptionTask {
 
 		    }
 		}
-	
+

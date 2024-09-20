@@ -7,7 +7,7 @@ public class Task8Quest7 {
      String msg = "Guvi Geek";
      int stringLength = msg.length();
      System.out.println(stringLength);
-     
+
 	}
 
 }

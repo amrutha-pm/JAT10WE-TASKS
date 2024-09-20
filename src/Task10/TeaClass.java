@@ -22,8 +22,8 @@ public class TeaClass {
 		System.out.println("A method that adds sugar to the basic Tea");
 	}
 	public static void main(String[] args) {
-	
-	
+
+
 		// TODO Auto-generated method stub
 		TeaClass objT=new TeaClass();
 		objT.prepareTea();

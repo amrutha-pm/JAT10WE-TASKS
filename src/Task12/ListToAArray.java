@@ -7,7 +7,7 @@ public class ListToAArray {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		 ArrayList<String> List = new ArrayList<String>();
+		 ArrayList<String> List = new ArrayList<>();
 
 	        List.add("Amrutha");
 	        List.add("Swathi");
@@ -17,7 +17,7 @@ public class ListToAArray {
 	        for (Object i : List.toArray())
 	        {
 	            System.err.print(i + " ");
-	            
+
 	}
 
 }

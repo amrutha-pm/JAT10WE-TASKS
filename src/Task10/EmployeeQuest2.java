@@ -2,7 +2,7 @@ package Task10;
 
 public class EmployeeQuest2
 {
-	
+
 int id;
 String firstName;
 String lastName;
@@ -52,6 +52,7 @@ public int raiseSalary(int percent)
 {
 	return(salary*20/100)+salary;
 }
+@Override
 public String toString()
 {
 	return "EmployeeQuest2"+"[Id="+id+","+"name=" +firstName+" "+lastName+","+ "salary="+salary+"]";
@@ -64,7 +65,7 @@ public String toString()
      EmployeeQuest2 objE = new EmployeeQuest2(1,"Amrutha","Nambiar",50000);
      System.out.println("EMPLOYEE DETAILS ");
      System.out.println(objE.toString());
-    
+
     System.out.println("salary before incrementing");
     System.out.println(objE.getSalary());
     System.out.println("Annual salary");

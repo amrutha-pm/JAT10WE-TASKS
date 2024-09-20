@@ -3,20 +3,20 @@ package Task10;
 
 public class PersonQuest1   //1)create a class with "person" name
 {
- 
+
 	String name;            //2)Defining attributed for the class "person"
 	int age;
-	            
+
 	                        //3)create constructor with parameters
 PersonQuest1(String name,int age)   //constructor must have the same name as the class name within which it is defined
 {
 	this.name=name;        //4)this keyword is used to mention the class attribute name and age
 	this.age=age;
-		
+
 }
-	                       
+
 //5)Now create getter methods for the attributes,to return string and int
-	
+
 public String getName()
 {
 	return name;

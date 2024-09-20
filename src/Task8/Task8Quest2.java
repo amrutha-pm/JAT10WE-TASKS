@@ -7,12 +7,12 @@ public class Task8Quest2 {
 
 		int a=10;
 		if(a%2==0)
-			
+
 		{
 			System.out.println(a + " is an even number");
-			
+
 		}
-		
+
 	}
 
 }

@@ -18,7 +18,7 @@ public class StackoverflowError {
 
 		int i;
 		calItself(i=3);
-	
+
 	}
 
 }

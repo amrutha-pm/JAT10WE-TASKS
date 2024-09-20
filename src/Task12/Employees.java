@@ -18,7 +18,7 @@ public class Employees {
 	        // for(String mapelement: treemap.values()){
 	        // System.out.println(mapelement);
 	        // }
-	        for (String mapelement : new TreeSet<String>(treemap.values())) {
+	        for (String mapelement : new TreeSet<>(treemap.values())) {
 	            System.out.println(mapelement);
 	        }
 	    }

@@ -18,9 +18,9 @@ public class NullPointerExceptionTask  {
 			//custom message ,ie,own message
 			//System.out.println("good morning");
 		}
-		System.out.println("Null pointer Exception Cought"); 
+		System.out.println("Null pointer Exception Cought");
 		System.out.println("good morning");
-		
+
 		}
 	}
 
